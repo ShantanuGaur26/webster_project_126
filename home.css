@@ -1,0 +1,122 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("bg.jpg") no-repeat 50% / cover;
+
+}
+
+  
+  nav .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(115, 176, 115);
+  }
+  
+ 
+header {
+    background-color: #0b160f;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color:#c0e2d7;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.left-section {
+    width: 50%;
+    font-style:inherit;
+    text-decoration-color: black;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.add-post {
+    margin-top: 20px;
+    text-decoration-color:black ;
+    
+    
+}
+
+.add-post textarea {
+    opacity:0.5;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing:border-box;
+    background: #29302e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-emphasis-color: white;
+    
+}
+
+.add-post button {
+    background-color: #012b10;
+    color: rgb(210, 234, 210);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.right-section {
+    width: 50%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.post {
+    border: 1px solid rgb(69, 85, 69);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #687b75 lin;
+    font: italic;
+}
+
+footer {
+    background-color: #012b1d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction:column;
+        text-align: center;
+       
+        
+
+    }
+
+    .left-section, .right-section {
+        max-width: 100%;
+    }
+}
+\
